@@ -1,0 +1,169 @@
+{
+  "films": [
+    {
+      "id": "1",
+      "title": "The Giant Gila Monster",
+      "runtime": 108,
+      "capacity": 50,
+      "showtime": "04:00PM",
+      "tickets_sold": 1,
+      "description": "A giant lizard terrorizes a rural Texas community and a heroic teenager attempts to destroy the creature.",
+      "poster": "images/monster.jpeg",
+      "ticket_price": 1000
+    },
+    {
+      "id": "2",
+      "title": "Manos: The Hands Of Fate",
+      "runtime": 118,
+      "capacity": 100,
+      "showtime": "06:45PM",
+      "tickets_sold": 91,
+      "description": "A family gets lost on the road and stumbles upon a hidden, underground, devil-worshiping cult led by the fearsome Master and his servant Torgo.",
+      "poster": "images/manos hands fate.jpeg",
+      "ticket_price": 900
+    },
+    {
+      "id": "3",
+      "title": "Plan 9 from Outer Space",
+      "runtime": 79,
+      "capacity": 60,
+      "showtime": "08:30PM",
+      "tickets_sold": 50,
+      "description": "Aliens resurrect dead humans to attack Earth as a means to stop humanity from creating a doomsday weapon.",
+      "poster": "images/plan9.jpeg",
+      "ticket_price": 750
+    },
+    {
+      "id": "4",
+      "title": "Robot Monster",
+      "runtime": 66,
+      "capacity": 30,
+      "showtime": "10:00PM",
+      "tickets_sold": 10,
+      "description": "A robot alien attempts to annihilate the last humans on Earth, but finds himself conflicted over love for one of them.",
+      "poster": "images/robot-monster.jpeg",
+      "ticket_price": 1100
+    },
+    {
+      "id": "5",
+      "title": "The Room",
+      "runtime": 99,
+      "capacity": 40,
+      "showtime": "12:00AM",
+      "tickets_sold": 12,
+      "description": "Johnny is a successful banker with great respect for his friends, but his life changes when his fiancée betrays him.",
+      "poster": "images/the room.jpeg",
+      "ticket_price": 1250
+    },
+    {
+      "id": "6",
+      "title": "Troll 2",
+      "runtime": 95,
+      "capacity": 80,
+      "showtime": "03:15PM",
+      "tickets_sold": 10,
+      "description": "A family is stalked by vegetarian goblins who want to turn them into plants.",
+      "poster": "images/troll2.jpeg",
+      "ticket_price": 800
+    },
+    {
+      "id": "7",
+      "title": "Birdemic: Shock and Terror",
+      "runtime": 93,
+      "capacity": 60,
+      "showtime": "07:00PM",
+      "tickets_sold": 20,
+      "description": "A romantic couple faces an apocalyptic world where birds attack humanity.",
+      "poster": "images/shock and terror.jpeg",
+      "ticket_price": 950
+    },
+    {
+      "id": "8",
+      "title": "Sharknado",
+      "runtime": 86,
+      "capacity": 120,
+      "showtime": "09:30PM",
+      "tickets_sold": 100,
+      "description": "A freak hurricane unleashes a swarm of killer sharks in Los Angeles.",
+      "poster": "images/sharknado.jpeg",
+      "ticket_price": 850
+    },
+    {
+      "id": "9",
+      "title": "The Amazing Bulk",
+      "runtime": 99,
+      "capacity": 150,
+      "showtime": "11:30PM",
+      "tickets_sold": 50,
+      "description": "A scientist turns into a giant green creature after a failed experiment.",
+      "poster": "images/amazing bulk.jpeg",
+      "ticket_price": 1100
+    },
+    {
+      "id": "10",
+      "title": "Space Mutiny",
+      "runtime": 89,
+      "capacity": 100,
+      "showtime": "02:30PM",
+      "tickets_sold": 25,
+      "description": "A crew fights against a deadly rebel group on a space station.",
+      "poster": "images/space mutiny.jpeg",
+      "ticket_price": 1000
+    },
+    {
+      "id": "11",
+      "title": "Robot Jox",
+      "runtime": 102,
+      "capacity": 80,
+      "showtime": "05:00PM",
+      "tickets_sold": 21,
+      "description": "In the future, giant robots are used to resolve conflicts between nations.",
+      "poster": "images/robot jox.jpeg",
+      "ticket_price": 950
+    },
+    {
+      "id": "12",
+      "title": "Attack of the Giant Leeches",
+      "runtime": 80,
+      "capacity": 70,
+      "showtime": "01:00PM",
+      "tickets_sold": 30,
+      "description": "Mutated leeches terrorize a small town in the Everglades.",
+      "poster": "images/attack of the gian leeches.jpeg",
+      "ticket_price": 710
+    },
+    {
+      "id": "13",
+      "title": "Robot Holocaust",
+      "runtime": 88,
+      "capacity": 60,
+      "showtime": "08:00PM",
+      "tickets_sold": 20,
+      "description": "Humans must fight for survival in a post-apocalyptic world dominated by robots.",
+      "poster": "images/robot holocaust.jpeg",
+      "ticket_price": 800
+    },
+    {
+      "id": "14",
+      "title": "Samurai Cop",
+      "runtime": 88,
+      "capacity": 120,
+      "showtime": "10:30PM",
+      "tickets_sold": 55,
+      "description": "A cop teams up with a partner to stop a criminal gang in Los Angeles.",
+      "poster": "images/samurai cop.jpeg",
+      "ticket_price": 1200
+    },
+    {
+      "id": "15",
+      "title": "Miami Connection",
+      "runtime": 87,
+      "capacity": 100,
+      "showtime": "12:30AM",
+      "tickets_sold": 40,
+      "description": "A rock band fights against a gang of ninjas in Miami.",
+      "poster": "images/miami connection.jpeg",
+      "ticket_price": 900
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Ticket Booking</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <div class="header-content">
+      <h1>Welcome to Movie Ticket Booking</h1>
+      <p>Book your favorite movie tickets online easily!</p>
+    </div>
+  </header>
+  <section class="relative bg-white/10 px py" id="zxoL">
+    <div class="mx-auto max-w-6xl w-full space-y-8">
+      <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Movie Ticket Booking</title>
+        <link rel="stylesheet" href="styles.css">
+        <!-- Include Font Awesome for the search icon -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+      </head>
+      
+      
+      <!-- Search Bar -->
+      <div class="search-bar">
+        <input type="text" id="search-input" placeholder="Search for movies..." class="px-4 py-2 border rounded-md w-full" />
+      </div>
+      
+      <div class="mx-auto w-full space-y-8">
+        <div class="hidden md:block">
+          <div id="flatdango" class="relative">
+          </div>
+          
+  <!-- Movie List -->
+<div id="films" class="films-container">
+  <div class="film">
+    <img src="movie1.jpg" alt="Movie 1" class="movie-image">
+    <p>Movie Title 1</p>
+  </div>
+  <div class="film">
+    <img src="movie2.jpg" alt="Movie 2" class="movie-image">
+    <p>Movie Title 2</p>
+  </div>
+  <!-- More movies here... -->
+</div>
+
+<!-- Modal for Movie Details -->
+<div id="movie-modal" class="modal">
+  <div class="modal-content">
+    <span id="close-modal" class="close-button">&times;</span>
+    <div class="modal-left">
+      <img id="modal-poster" alt="Movie Poster" />
+    </div>
+    <div class="modal-right">
+      <h2 id="modal-title">Movie Title</h2>
+      <p id="modal-runtime">Runtime: 88 mins</p>
+      <p id="modal-showtime">Showtime: 08:00 PM</p>
+      <p id="modal-description">Humans must fight for survival in a post-apocalyptic world dominated by robots.</p>
+      <p>Available Tickets: <span id="modal-available-tickets">40</span></p>
+      <label for="ticket-quantity">Quantity: </label>
+      <input type="number" id="ticket-quantity" min="1" value="1" />
+      <p>Ticket Price: Ksh <span id="modal-ticket-price">800.00</span></p>
+      <p>Total Cost: Ksh <span id="modal-total-cost">800.00</span></p>
+      <button id="modal-buy-ticket">Buy Tickets</button>
+    </div>
+  
+    <!-- Ticket Modal -->
+<div id="ticketModal" class="modal" style="display: none;">
+  <div class="modal-content">
+    <div class="modal-left">
+      <img src="movie-image.jpg" alt="Movie Poster" />
+    </div>
+    <div class="modal-right">
+      <h2 id="movie-title">Movie Title</h2>
+      <p><strong>Runtime:</strong> 88 mins</p>
+      <p><strong>Showtime:</strong> 08:00PM</p>
+      <p>
+        <strong>Description:</strong> Humans must fight for survival in a post-apocalyptic world dominated by robots.
+      </p>
+      <p><strong>Available Tickets:</strong> <span id="available-tickets">40</span></p>
+
+      <!-- Ticket Purchase Form -->
+      <form id="ticketForm" onsubmit="return handleTicketPurchase(event)">
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" value="1" min="1" max="40" oninput="updateTotalCost()" />
+        <p><strong>Ticket Price:</strong> Ksh 800.00</p>
+        <p><strong>Total Cost:</strong> Ksh <span id="total-cost">800.00</span></p>
+
+        <!-- Submit Button -->
+        <button type="submit">Buy Ticket</button>
+      </form>
+
+      <!-- Success/Error Message -->
+      <p id="message" style="margin-top: 15px; font-weight: bold; color: green;"></p>
+
+      <!-- Close Button -->
+      <button class="close-button" onclick="closeModal()">Close</button>
+    </div>
+  </div>
+</div>
+
+
+    <!-- Add MPesa option to the modal -->
+<button id="mpesa-payment" class="payment-button">Pay with MPesa</button>
+
+  </div>
+</div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
